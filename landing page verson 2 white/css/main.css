@@ -1,0 +1,106 @@
+/* RESET CSS ////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONTS /////////////////////////////////////////////// */
+
+/* app font */
+@font-face {
+    font-family: "Acumin";
+    src: url(fonts/Acumin-RPro.otf);
+}
+
+/* GENERAL APP STYLES /////////////////////////////////// */
+
+body {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+header {
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    font-size: 10px;
+}
+
+section {
+    position: absolute;
+    top: 60px;
+    width: 375px;
+    height: 547px;
+    background: #FFF;
+    overflow: auto;
+}
+
+
+/* SPLASH SCREEN ////////////////////////////////////////// */
+
+#splash {
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.splashImg {
+    display: inline-block;
+}
+
+#logo {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 65%;
+}
+
+#preloader {
+    width: 6%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+
+
+/* LANDING SCREEN ///////////////////////////////////////// */
+
+#landing {
+    font-family: "Acumin", sans-serif;
+    background-color: #fff;
+    background-size: cover;
+    padding-top: 130px;
+}
+
+#landing header {
+    border-bottom: solid 5px #FFF;
+    background: #fff;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+#landing header img {
+    width: 40%;
+    height: auto;
+}
+

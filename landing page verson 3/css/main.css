@@ -1,0 +1,151 @@
+/* RESET CSS ////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONTS /////////////////////////////////////////////// */
+
+/* app font */
+@import url(//db.onlinewebfonts.com/c/ed09b50712bb1277477b1536e8747d9d?family=Isra-Regular);
+
+@font-face {
+    font-family: "Isra-Regular";
+    src: url(fonts/Acumin-RPro.otf);
+}
+
+@font-face {
+    font-family: "Isra-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.eot"); 
+    src: url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.woff") format("woff"), url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ed09b50712bb1277477b1536e8747d9d.svg#Isra-Regular") format("svg"); 
+}
+
+/* GENERAL APP STYLES /////////////////////////////////// */
+
+body {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+header {
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    font-size: 10px;
+}
+
+section {
+    position: absolute;
+    top: 60px;
+    width: 375px;
+    height: 547px;
+    background: #FFF;
+    overflow: auto;
+}
+
+
+/* SPLASH SCREEN ////////////////////////////////////////// */
+
+#splash {
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.splashImg {
+    display: inline-block;
+}
+
+#logo {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 55%;
+}
+
+#splash p {
+    margin-top: 30px;
+    font-family: "Isra-Regular";
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #003893;
+    letter-spacing: 3px;
+}
+
+#preloader {
+    width: 6%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+/* LANDING SCREEN ONE ///////////////////////////////////////// */
+
+#landing1 {
+    font-family: "Isra Regular", sans-serif;
+    background-color: #fff;
+    background-size: cover;
+    padding-top: 0px;
+}
+
+#landing1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* LANDING SCREEN TWO ///////////////////////////////////////// */
+#landing2 img {
+    width: 100%;
+    height: auto;
+}
+
+/* menu screen */
+
+#menu {
+    font-family: "Acumin", sans-serif;
+    background-color: #fff;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+#menu header {
+    border-bottom: solid 5px #FFF;
+    background: #fff;
+    height: 80px;
+    padding: 0px;
+    text-align: center;
+}
+
+#menu header img {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.menuItems {
+    position: relative;
+    padding: 0px;
+    padding-top: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
